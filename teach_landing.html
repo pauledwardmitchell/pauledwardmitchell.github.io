@@ -15,7 +15,7 @@
 			<li>You explaining a math concept like a ninja.</li>
 		</ul>
 
-	<h3>Have an idea for an awesome video?  Submit your idea here!</h3>
+	<h3>Have an idea for an awesome video?  Submit your idea below!</h3>
 
 <form name="adventure" action="thank_you.html" method="post">
   <fieldset>
@@ -30,38 +30,33 @@
     </div>
 
     <div>
-      <label>Password:</label>
-      <input type="password" name="password">
+      <label>Name of School:</label>
+      <input type="text" name="school_name">
     </div>
-  </fieldset>
-
-  <fieldset>
+ 
     <div>
-      <label>Adventure name:</label>
-      <input type="text" name="adv-name" placeholder="Name this adventure">
+      <label>Video name:</label>
+      <input type="text" name="lesson-name" placeholder="Name this video">
     </div>
 
     <div>
-      <label>Type of bicycle:</label>
-      <select name="bike">
-        <option value="road">road</option>
-        <option value="road">Mountain</option>
-        <option value="road">Cyclocross</option>
+      <label>Lesson Subject:</label>
+      <select name="Subject">
+        <option value="Writing">Writing</option>
+        <option value="Reading">Reading</option>
+        <option value="Math">Math</option>
+        <option value="History">History</option>
+        <option value="Science">Science</option>
       </select>
     </div>
 
-    <div>    
-      <label>Choose a date:</label>
-      <input type="date" name="date">
-    </div>
-
     <div>
-      <input type="checkbox" name="challenge-agree" value="agree">
-      I am prepared to lead this adventure.
+      <input type="checkbox" name="academic_honesty-agree" value="agree">
+      I am swear upon all that is holy that my work is my own.
     </div>
   </fieldset>
   
-  <button type="submit">Save this adventure</button>
+  <button type="submit">Send us your idea!</button>
 </form>
 
 </body>
