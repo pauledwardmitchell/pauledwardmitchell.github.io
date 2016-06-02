@@ -1,14 +1,74 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>TEACH!</title>
 </head>
 <body>
 	<h1>Welcome to the TEACH page!</h1>
-	<p>This is the place where you can host your videos of teaching cool stuff!</p>
+	<p>This is a site <strong><em>BY STUDENTS FOR STUDENTS</em></strong>.  It is a place where you can host your videos of teaching cool stuff!</p>
 
-<!-- list of acceptable topics-->
+	<h2>So, I am still in middle school... but you say that I am a teacher... what do you mean by that?</h2>
+	<p>You are capable of teaching your peers!  Think about it!  Here are a list of topics that you can upload videos about:</p>
+		<ul>
+			<li>You reading an awesome poem you wrote.</li>
+			<li>You reading an awesome story you wrote.</li>
+			<li>You explaining a super-hard grammar topic like a ninja.</li>
+			<li>You explaining a math concept like a ninja.</li>
+		</ul>
 
-<!-- form for proposing a topic -->
+	<h3>Have an idea for an awesome video?  Submit your idea below!</h3>
+
+<form name="adventure" action="thank_you.html" method="post">
+  <fieldset>
+    <div>
+      <label>Full name:</label>
+      <input type="text" name="fullname">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+    <div>
+      <label>Name of School:</label>
+      <input type="text" name="school_name">
+    </div>
+ 
+    <div>
+      <label>Video name:</label>
+      <input type="text" name="lesson-name" placeholder="Name this video">
+    </div>
+
+    <div>
+      <label>Lesson Subject:</label>
+      <select name="Subject">
+        <option value="Writing">Writing</option>
+        <option value="Reading">Reading</option>
+        <option value="Math">Math</option>
+        <option value="History">History</option>
+        <option value="Science">Science</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="checkbox" name="academic_honesty-agree" value="agree">
+      I am swear upon all that is holy that my work is my own.
+    </div>
+  </fieldset>
+  
+  <button type="submit">Send us your idea!</button>
+</form>
+
+<nav>
+  	<a href="learn_landing.html">Learn!</a> |
+  	<a href="index.html">Home Page!</a> 
+</nav>
+
+<footer>
+	<p>Teach and Learn Inc.</p>
+	<p><a href="info@teachandlearn.com">Contact us!</a></p>
+</footer>
 
 </body>
 </html>
