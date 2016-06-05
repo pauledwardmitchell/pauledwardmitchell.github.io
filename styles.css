@@ -1,9 +1,7 @@
 * {
 	font-family: helvetica;
-}
-
-body {
-	background: blue;
+	color: white;
+	background: url(http://www.jackiejohnston.us/iceharbor/bg-body.jpg)
 }
 
 footer {
@@ -15,5 +13,4 @@ footer {
 	border-width: 10px;
 	padding: 4px;
 	width: 60px;
-	float: left;
 }
