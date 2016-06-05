@@ -1,3 +1,44 @@
-body {
-	background: blue;
+* {
+	margin: 10px;
+	font-family: helvetica;
+	color: white;
+	background: url(http://www.jackiejohnston.us/iceharbor/bg-body.jpg)
+}
+
+footer {
+	text-align: center;
+}
+
+#button1 {
+	border: 2px red;
+	border-width: 6px;
+	padding: 2px;
+	width: 60px;
+}
+
+#button2 {
+	border: 2px blue;
+	border-width: 6px;
+	padding: 2px;
+	width: 60px;
+}
+
+.QandA {
+	font-family: Comic Sans MS;
+	background-color: black;
+	padding: 5px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: green;
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    font-size: 100%;
+  }
 }
