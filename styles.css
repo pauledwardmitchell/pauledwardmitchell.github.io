@@ -21,3 +21,17 @@ footer {
 	background-color: black;
 	padding: 5px;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: green;
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    font-size: 100%;
+  }
+}
